@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.maxwidth{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'Ubuntu',sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: rgb(79, 78, 78);
+}
+.navbar .maxwidth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.home{
+    display: flex;
+    background: url("./robot-2420319_1920.png") no-repeat center;
+    color: white;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home .maxwidth{
+    margin: auto 0 auto 40px;
+}
+.home .homecontent .text1{
+    color: crimson;
+    font-size: 60px;
+}
+.home .homecontent .text2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.home .homecontent .text3{
+    font-size: 20px;
+}
+.about{
+    font-family: 'Poppins',sans-serif;
+    height: 75vh;
+    background: url("./—Pngtree—dark\ blue\ beam\ matte\ upscale_919994.jpg");
+    color: white;
+}
+.about .title{
+    padding-top: 50px;
+    text-align: center;
+    font-family:'Ubuntu',sans-serif;
+    font-size: 40px;
+}
+.about .aboutcontent{
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.about .end{
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.foot{
+    background: rgb(79, 78, 78);
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    padding-left: 20px;
+    height: 22vh;
+    font-size: 13px;
+}
+.foot ul{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    color: white;
+}
+.foot ul li{
+    padding: 0 8px;
+    margin-bottom: 10px;
+}
+.foot .brand1 img{
+    width: 44px;
+    border-radius: 5px;
+}
+.foot .brand2 img{
+    width: 44px;
+    border-radius: 5px;
+}
+.foot .brand3 img{
+    width: 44px;
+    border-radius: 5px;
+}
+.foot .brand4 img{
+    width: 44px;
+    border-radius: 5px;
+}
+.Me a{
+    color: white;
+}
+@media(maxwidth: 947px){
+    .maxwidth{
+        padding: 0 50px;
+    } 
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+}
+.forme{
+    background: rgb(57, 56, 56);
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+    height: 20vh;
+}
+.forme .top{
+    padding-top: 44px;
+}
+body{
+    height: 80vh;
+    align-content: center;
+    background: antiquewhite;
+}
+.links ul{
+    padding-top: 15px;
+    display: flex;
+    
+    list-style-type: none;
+    height: 65px;
+    color: white;
+}
+.links ul li{
+    padding: 0 20px;
+    margin-top: 15vh;
+    margin-left: 5vw;
+}
+.links .ig img{
+    width: 60px;
+    border-radius: 5px;
+    margin-left: 20vw;
+}
+.links .linkedin img{
+    width: 60px;
+    border-radius: 5px;
+}
+.links .github img{
+    width: 60px;
+    border-radius: 5px;
+}
+.links .facebook img{
+    width: 60px;
+    border-radius: 5px;
+}
